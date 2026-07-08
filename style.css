@@ -1,0 +1,36 @@
+body {
+  margin: 100px;
+  color: azure;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.container {
+  background-color: rgb(15, 125, 173);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid green;
+  width: 800px;
+  height: 950px;
+}
+
+h1 {
+  color: goldenrod;
+  font-size: 70px;
+}
+
+button {
+  width: 300px;
+  height: 70px;
+  font-size: 30px;
+  color: green;
+  font-weight: bold;
+  background-color: goldenrod;
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+}
